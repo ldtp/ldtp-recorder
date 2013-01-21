@@ -1,0 +1,30 @@
+ldtp-recorder
+=============
+
+Copyright 2012-2013 Friedrich Paetzke (f.paetzke@gmail.com)
+
+This program translates GUI Events to executable commands that fit the
+Linux Desktop Testing Project (LDTP, http://ldtp.freedesktop.org/).
+
+
+Usage
+-----
+$ ./ldtp-recorder.py [gui]
+
+
+Requirements
+------------
+	- python 2.7
+	- pyatspi2
+	- ldtp
+
+
+Development
+-----------
+Debug:
+	There is a LDTP_RECORDER_DEBUG environment variable.
+	See src/debug.py for more Information.
+
+
+
+For more information take a look at http://www.vanneva.com/page/ldtp-recorder
